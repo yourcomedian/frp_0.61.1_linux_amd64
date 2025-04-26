@@ -4,8 +4,8 @@ kcpBindPort = 7100
 
 webServer.addr = "0.0.0.0"
 webServer.port = 7500
-webServer.user = "liyuan"
-webServer.password = "981006"
+webServer.user = ""
+webServer.password = ""
 
 
 log.to = "/frpslog/frps.log"
