@@ -8,10 +8,6 @@ webServer.user = ""
 webServer.password = ""
 
 
-log.to = "/frpslog/frps.log"
-log.level = "info"
-log.maxDays = 3
-
 auth.method = "token"
 auth.token = "tokentoken"
 
