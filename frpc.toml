@@ -1,0 +1,19 @@
+serverAddr = "45.32.221.92"
+serverPort = 7100
+
+auth.method = "token"
+auth.token = "tokentoken"
+
+[[proxies]]
+name = "ssh"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 22
+remotePort = 6000
+
+[[proxies]]
+name = "test"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 5000
+remotePort = 6100
